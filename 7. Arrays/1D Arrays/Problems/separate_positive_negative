@@ -1,3 +1,5 @@
+//bring all the negative in the front and send all the positive in the back
+
 #include<iostream>
 #include<bits/stdc++.h>
 using namespace std;
