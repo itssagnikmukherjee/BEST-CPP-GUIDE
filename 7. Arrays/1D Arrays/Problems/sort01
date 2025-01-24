@@ -1,3 +1,5 @@
+//sort the array of zero and one
+
 #include<iostream>
 #include<bits/stdc++.h>
 using namespace std;
