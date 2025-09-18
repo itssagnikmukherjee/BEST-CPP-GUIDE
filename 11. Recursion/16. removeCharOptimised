@@ -1,0 +1,19 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+void removeChar(string str, string original, char ch, int idx){
+	if(idx==original.size()){
+		cout<<str;
+		return;
+	}
+	char c = original[idx];
+	if(c==ch) removeChar(str,original,ch,idx+1);
+	else removeChar(str+c,original,ch,idx+1);
+}
+
+int main(){
+	string str = "Sagnik Mukherjee";
+	string str2 = "";
+	removeChar(str2,str,'e',0);
+	return 0;
+}
